@@ -20,6 +20,7 @@ function loadUserCards() {
         userCard.className = "col-lg-3 col-md-6 col-sm-12 mb-4";
         userCard.innerHTML = `
             <div class="card">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="User image">
                 <div class="card-body">
                     <h5 class="card-title">${user.name}</h5>
                     <p class="card-text">Возраст: ${user.age}</p>
